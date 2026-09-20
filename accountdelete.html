@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Silme / Account Deletion</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            padding: 24px;
+            border-left: 5px solid #007bff;
+        }
+        .card.en {
+            border-left-color: #28a745;
+        }
+        h2 {
+            margin-top: 0;
+            color: #111;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 16px;
+        }
+        ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        ol li {
+            margin-bottom: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        strong {
+            color: #555;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .lang-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+        .badge-tr { background-color: #007bff; }
+        .badge-en { background-color: #28a745; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Türkçe Bölüm -->
+    <div class="card">
+        <span class="lang-badge badge-tr">Türkçe</span>
+        <h2>Hesap Silme</h2>
+        <p>Hesabınızı silmek için lütfen aşağıdaki adımları izleyin:</p>
+        <ol>
+            <li>Uygulamayı açın.</li>
+            <li><strong>Ayarlar</strong> &gt; <strong>Hesabımı Kalıcı Olarak Sil</strong> butonuna tıklayın.</li>
+        </ol>
+        <ul>
+            <li><strong>Silinen veriler:</strong> Kullanıcı adı, oyun istatistikleri, maç geçmişi</li>
+            <li><strong>Saklama süresi:</strong> Anında silinir</li>
+            <li><strong>İletişim:</strong> <a href="mailto:support.mancala@gmail.com">support.mancala@gmail.com</a></li>
+        </ul>
+    </div>
+
+    <!-- İngilizce Bölüm -->
+    <div class="card en">
+        <span class="lang-badge badge-en">English</span>
+        <h2>Account Deletion</h2>
+        <p>To delete your account, please follow the steps below:</p>
+        <ol>
+            <li>Open the app.</li>
+            <li>Tap <strong>Settings</strong> &gt; <strong>Permanently Delete My Account</strong>.</li>
+        </ol>
+        <ul>
+            <li><strong>Deleted data:</strong> Username, game statistics, match history</li>
+            <li><strong>Retention period:</strong> Deleted immediately</li>
+            <li><strong>Contact:</strong> <a href="mailto:support.mancala@gmail.com">support.mancala@gmail.com</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
